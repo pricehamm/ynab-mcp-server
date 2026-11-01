@@ -1,0 +1,22 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ynab-mcp-server",
+  "main": "src/worker/index.ts",
+  "compatibility_date": "2026-09-01",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": true,
+  "kv_namespaces": [
+    {
+      "binding": "OAUTH_KV",
+      "id": "7a974c12f2dd413fbf7a053d73bcb5b4",
+      "remote": true
+    }
+  ],
+  "vars": {
+    "YNAB_READ_ONLY": "false",
+    "NAG_TIMEZONE": "America/Chicago",
+    "AUTOBUDGET_MODE": "off"
+  }
+}
