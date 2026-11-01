@@ -17,6 +17,8 @@
   "vars": {
     "YNAB_READ_ONLY": "false",
     "NAG_TIMEZONE": "America/Chicago",
-    "AUTOBUDGET_MODE": "off"
-  }
+    "AUTOBUDGET_MODE": "off",
+    "ALLOWED_GITHUB_LOGIN": "pricehamm"
+  },
+  "minify": true
 }
